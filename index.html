@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Your custom CSS file -->
+    <style>
+        /* Custom CSS for specific styles from Adobe XD */
+        .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        #detailsSection {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        #detailsSection h2 {
+            color: #343a40;
+        }
+        #detailsSection p {
+            color: #6c757d;
+        }
+        .growth-card {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .growth-card:hover {
+            transform: translateY(-5px);
+        }
+        .growth-card h3 {
+            color: #343a40;
+        }
+        .growth-card p {
+            color: #6c757d;
+        }
+        .growth-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Award Winning</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1>Welcome to Our Digital Agency</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan est ut magna vestibulum, sed
+                vehicula
+                nunc rhoncus.</p>
+            <button class="btn btn-primary btn-lg" id="contactBtn">Contact Us</button>
+        </div>
+        <div class="col-lg-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-image-details="SEO Services">
+                        <img src="assign 1.png" class="d-block w-100" alt="SEO Services">
+                    </div>
+                   <!-- <div class="carousel-item" data-image-details="Social Media Marketing">
+                        <img src="https://i.imgur.com/abc.jpg" class="d-block w-100" alt="Social Media Marketing">
+                    </div>
+                    <div class="carousel-item" data-image-details="Email Marketing Campaigns">
+                        <img src="https://i.imgur.com/pqr.jpg" class="d-block w-100" alt="Email Marketing Campaigns">
+                    </div>
+                -->                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                   data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                   data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Details Section -->
+    <div class="row mt-5" id="detailsSection">
+        <div class="col-lg-12">
+            <!-- Placeholder for details -->
+        </div>
+    </div>
+
+    
+    
+<!-- What We Do Section -->
+<div class="row mt-5">
+    <div class="col-lg-12">
+        <h2>What We Do</h2>
+        <p>We specialize in digital marketing strategies tailored to your business needs. Our services include:</p>
+        <div id="digitalMarketingCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-target="#seoDetails">
+                    <img src="do 1.png" class="d-block w-50" alt="SEO">
+                </div>
+                <div class="carousel-item" data-target="#ppcDetails">
+                    <img src="do 2.png" class="d-block w-50" alt="PPC">
+                </div>
+                <div class="carousel-item" data-target="#socialMediaDetails">
+                    <img src="do 4.png" class="d-block w-50" alt="Social Media Marketing">
+                </div>
+                <div class="carousel-item" data-target="#emailMarketingDetails">
+                    <img src="do 3.png" class="d-block w-50" alt="Email Marketing Campaigns">
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#digitalMarketingCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#digitalMarketingCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Detailed Information Section -->
+<div class="row mt-5">
+    <div class="col-lg-12">
+        <div id="seoDetails" class="digital-service-details">
+            <h3>Search Engine Optimization (SEO)</h3>
+            <p>Optimize your website to rank higher in search engines.</p>
+        </div>
+        <div id="ppcDetails" class="digital-service-details">
+            <h3>Pay-Per-Click (PPC) Advertising</h3>
+            <p>Drive targeted traffic to your website through paid ads.</p>
+        </div>
+        <div id="socialMediaDetails" class="digital-service-details">
+            <h3>Read More</h3>
+            <p>Engage with your audience on social platforms.</p>
+        </div>
+        <div id="emailMarketingDetails" class="digital-service-details">
+            <h3>Email Marketing Campaigns</h3>
+            <p>Reach your customers directly through email campaigns.</p>
+        </div>
+        <div id="contentCreationDetails" class="digital-service-details">
+            <h3>Content Creation and Management</h3>
+            <p>Create valuable content that resonates with your audience.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Growth Cards Section -->
+    <div class="row mt-5">
+        <div class="col-lg-3">
+            <div class="growth-card" id="satisfiedCustomers">
+                <img src="customer.jpg" alt="Satisfied Customers">
+                <h3>Satisfied Customers</h3>
+                <p>1000+</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="growth-card" id="daysOfOperation">
+                <img src="days.jpg" alt="Days of Operation">
+                <h3>Days of Operation</h3>
+                <p>365</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="growth-card" id="completedProjects">
+                <img src="project.jpg" alt="Completed Projects">
+                <h3>Completed Projects</h3>
+                <p>500+</p>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="growth-card" id="awardsWon">
+                <img src="win.jpg" alt="Awards Won">
+                <h3>Awards Won</h3>
+                <p>10+</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Form Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonials Section -->
+<div class="container-fluid bg-dark text-light py-5" id="testimonialsSection">
+    <div class="container">
+        <h2 class="text-center mb-4">People Say About Us</h2>
+        <div id="testimonialsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto">
+                            <div class="testimonial text-center">
+                                       <p>"Great service! They helped us boost our online presence effectively."</p>
+                                <h5>John Doe</h5>
+                                <p>CEO, Example Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6 mx-auto">
+                            <div class="testimonial text-center">
+                               <p>"Highly recommended agency. Professional and results-driven."</p>
+                                <h5>Jane Smith</h5>
+                                <p>Marketing Director, Another Company</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel items as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script> <!-- Your custom JavaScript file -->
+
+<!-- Custom JavaScript -->
+<script>
+    $(document).ready(function () {
+        // Handle click on growth cards
+        $('.growth-card').click(function () {
+            var cardId = $(this).attr('id');
+            // Example action: Log card click
+            console.log('Clicked on ' + cardId);
+        });
+    });
+</script>
+<!-- Custom JavaScript -->
+<script>
+    $(document).ready(function () {
+        // Initialize carousel
+        $('#digitalMarketingCarousel').carousel();
+
+        // Handle click on carousel items
+        $('#digitalMarketingCarousel .carousel-item').on('click', function () {
+            var target = $(this).data('target');
+            $('.digital-service-details').removeClass('active'); // Hide all details
+            $(target).addClass('active'); // Show clicked item details
+        });
+    });
+</script>
+
+
+</body>
+</html>
